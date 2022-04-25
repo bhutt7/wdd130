@@ -1,0 +1,13 @@
+body{
+    background-color: greenyellow
+}
+
+p{
+    font-size: 150%
+}
+
+.smallParagraph{
+    font-size: 300%;
+    color: blue;
+    
+}
