@@ -1,0 +1,40 @@
+.blueText {
+    color: blue;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#purpleText {
+    font-size: 300%;
+    color: purple;
+}
+
+.email {
+    width: 100%;
+    height: 25px;
+    text-align: left;
+    color: beige;
+}
+
+.emailUnopened {
+    font-weight: bold;
+}
+
+.containerDiv {
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .containerDiv {
+        width: 100%;
+        padding: 15px;
+        margin: 0;
+    }
+}
