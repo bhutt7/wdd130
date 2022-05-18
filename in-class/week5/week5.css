@@ -1,0 +1,50 @@
+.top {
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 120px;
+    height:120px;
+    margin: 0 100px;
+}
+
+.middle {
+    background-color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150px;
+    height: 150px;
+    margin: 0 75px;
+}
+
+.bottom {
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 180px;
+    height:180px;
+    margin: 0 50px;
+}
+
+.box {
+    height: 100px;
+    width:100px;
+    display: inline-block;
+    background-color: yellow;
+    margin-top: 50px;
+}
+
+#first {
+    margin-left: 50px;
+}
+
+#second {
+    margin-right: 50px;
+}
+
+.separator {
+    display: inline-block;
+    width: 617px;
+}
