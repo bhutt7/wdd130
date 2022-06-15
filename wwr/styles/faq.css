@@ -90,6 +90,8 @@ h2 {
 
 .question {
     background-color: lightgrey;
+    font-weight: bold;
+    font-size: 25px;
     grid-column: 1/3;
 }
 
