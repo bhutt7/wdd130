@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Inconsolata&display=swap');
+
+header {
+    background-color: #01690a;
+    height: 260px;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+}
+
+#logo {
+    justify-self: center;
+    align-self: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+}
+
+nav a {
+    font-size: 2em;
+    font-family: "Inconsolata";
+    text-decoration: none;
+    color: #715946;
+}
+
+nav a:hover {
+    color: #cfd2b2;
+}
+
+.button {
+    background-color: #cfd2b2;
+    border-radius: 25px;
+    width: 200px;
+    height: 2.3em;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: #715946;
+}
+
+.home {
+    grid-column: 1/2;
+}
+
+.trails {
+    grid-column: 2/3;
+}
+
+.gear {
+    grid-column: 3/4;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 3fr 5fr 3fr;
+    grid-template-rows: 4fr 2fr 1fr;
+}
+
+#hero-img {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    width: 100%;
+}
+
+.hero-msg {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: #01690a;
+    color: #cfd2b2;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    font-family: "Inconsolata";
+}
+
+p {
+    font-size: 1.8em;
+    margin: 0 100px 100px 100px;
+    font-family: "Comfortaa";
+}
+
+.intro h1 {
+    color: #446cc9;
+}
+
+.intro p {
+    color: #446cc9;
+}
+
+.intro {
+    margin-top: 80px;
+}
+
+.destress {
+    margin: 0 50px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+
+.destress img {
+    width: 100%;
+}
+
+.destress-text {
+    align-self: center;
+}
+
+.goal {
+    margin: 140px 50px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.goal img {
+    width: 100%;
+}
+
+.goal-text {
+    align-self: center;
+}
+
+.goal-text p {
+    text-align: right;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 7fr 3fr 300px;
+    background-color: #01690a;
+    height: 150px;
+}
+
+h2 {
+    margin-left: 50px;
+    font-size: 1.5em;
+    align-self: center;
+    color: #cfd2b2;
+    font-family: "Inconsolata";
+}
+
+h3 {
+    font-size: 1.3em;
+    align-self: center;
+    color: #cfd2b2;
+    font-family: "Inconsolata";
+}
+
+h3 a {
+    color: #cfd2b2;
+    text-decoration: none;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.social a {
+    align-self: center;
+}
+
+.social a img {
+    width: 70px;
+}
+
+#facebook {
+    grid-column: 1/2;
+}
+
+#twitter {
+    grid-column: 2/3;
+}
+
+#instagram {
+    grid-column: 3/4;
+}
