@@ -5,6 +5,7 @@ header {
     height: 260px;
     display: grid;
     grid-template-columns: 2fr 8fr;
+    margin-bottom: 80px;
 }
 
 #logo {
@@ -32,7 +33,6 @@ nav a:hover {
 .button {
     background-color: #cfd2b2;
     border-radius: 25px;
-    width: 200px;
     height: 2.3em;
     text-align: center;
     justify-self: center;
@@ -58,79 +58,47 @@ nav a:hover {
     width: 190px;
 }
 
-.hero {
-    display: grid;
-    grid-template-columns: 3fr 5fr 3fr;
-    grid-template-rows: 4fr 2fr 1fr;
-}
-
-#hero-img {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    width: 100%;
-}
-
-.hero-msg {
-    grid-column: 2/3;
-    grid-row: 2/4;
-    background-color: #01690a;
-    color: #cfd2b2;
+.title {
+    background-color: #715946;
+    width: 30%;
+    margin: 0 auto;
 }
 
 h1 {
     font-size: 4em;
     text-align: center;
     font-family: "Inconsolata";
+    color: #cfd2b2;
 }
 
-p {
+.trail-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.trail {
+    margin: 60px;
+    background-color: #cfd2b2;
+}
+
+.trail img {
+    width: 100%;
+}
+
+.trail h2 {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Inconsolata";
+    color: #01690a;
+    margin: 35px 30px;
+}
+
+.trail p {
     font-size: 1.8em;
     margin: 0 100px 100px 100px;
     font-family: "Comfortaa";
-}
-
-.intro h1 {
-    color: #446cc9;
-}
-
-.intro p {
-    color: #446cc9;
-}
-
-.intro {
-    margin-top: 80px;
-}
-
-.destress {
-    margin: 0 50px;
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-}
-
-.destress img {
-    width: 100%;
-}
-
-.destress-text {
-    align-self: center;
-}
-
-.goal {
-    margin: 140px 50px;
-    display: grid;
-    grid-template-columns: 2fr 3fr;
-}
-
-.goal img {
-    width: 100%;
-}
-
-.goal-text {
-    align-self: center;
-}
-
-.goal-text p {
-    text-align: right;
+    color: #715946;
 }
 
 footer {
@@ -138,9 +106,10 @@ footer {
     grid-template-columns: 7fr 3fr 300px;
     background-color: #01690a;
     height: 150px;
+    margin-top: 50px;
 }
 
-h2 {
+footer h2 {
     margin-left: 50px;
     font-size: 1.5em;
     align-self: center;
